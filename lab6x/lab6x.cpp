@@ -16,7 +16,7 @@ int main()
         cin >> a >> b >> h;
         cout << "x" << "\t" << "y" << endl;
 
-        for (double x = a; x <= b ; x += h) {
+        for (double x = a; x <= b ; x += h) // проверка введённых файлов с помощью цикла
             
             if (x <= -1)
                 f = x * (-1);
@@ -25,7 +25,7 @@ int main()
             else
                 f = 1;
             
-            cout << x << "\t" << f << endl;
+            cout << x << "\t" << f << endl; //вывод данных
 
         }
     
