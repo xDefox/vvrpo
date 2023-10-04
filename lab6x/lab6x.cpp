@@ -9,8 +9,6 @@ int main()
     double x = 0, f,h;
     int a, b;
 
-    //cout << "Введите X: ";
-    //cin >> x;
     
     cout << "Введите пределы a, b, и шаг h: ";
         cin >> a >> b >> h;
